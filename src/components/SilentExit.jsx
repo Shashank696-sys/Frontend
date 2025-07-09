@@ -762,11 +762,11 @@ const listStyle = {
     📘 {showAbout ? "Hide About" : "About This App"}
   </button>
 </div><br></br>
-
-  {showSettings && (
-  <div onClick={() => setShowSettings(false)}>
-    <div  onClick={(e) => e.stopPropagation()}>
-      <button onClick={() => setShowSettings(false)}>×</button>
+    
+{showSettings && (
+  <div className="modal-overlay" onClick={() => setShowSettings(false)}>
+    <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+      <button className="close-button" onClick={() => setShowSettings(false)}>×</button>
       <Settings onClose={() => setShowSettings(false)} />
     </div>
   </div>
