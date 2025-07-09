@@ -640,7 +640,7 @@ const listStyle = {
   <div className="sos-overlay">
     <div className="sos-card">
       <img 
-        src='${baseURL}shake.gif' 
+        src="/shake.gif" 
         alt="SOS Gesture" 
         style={{
           width: "160px",
@@ -873,7 +873,7 @@ const listStyle = {
     </div>
 
     </div>
-    <audio ref={sirenRef} src='${baseURL}siren.mp3' preload="auto" />
+    <audio ref={sirenRef} src="/siren.mp3" preload="auto" />
     </div>
   );
 }
