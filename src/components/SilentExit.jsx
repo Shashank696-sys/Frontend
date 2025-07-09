@@ -765,9 +765,7 @@ const listStyle = {
     
 {showSettings && (
   <div className="modal-overlay" onClick={() => setShowSettings(false)}>
-    <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-      <button className="close-button" onClick={() => setShowSettings(false)}>×</button>
-      <Settings onClose={() => setShowSettings(false)} />
+  <button className="close-button" onClick={() => setShowSettings(false)}>×</button>
     </div>
   </div>
 )}
