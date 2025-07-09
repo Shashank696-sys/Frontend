@@ -763,6 +763,15 @@ const listStyle = {
   </button>
 </div><br></br>
 
+  {showSettings && (
+  <div onClick={() => setShowSettings(false)}>
+    <div  onClick={(e) => e.stopPropagation()}>
+      <button onClick={() => setShowSettings(false)}>×</button>
+      <Settings onClose={() => setShowSettings(false)} />
+    </div>
+  </div>
+)}
+    
 {showAbout && (
   <div
     className="about-section card-container fade-in"
