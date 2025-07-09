@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import "./settings.css";
+import './Settings.css';
 
 const Settings = ({ onClose }) => {
   const [gmail, setGmail] = useState("");
