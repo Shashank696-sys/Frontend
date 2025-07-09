@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import "../style.css";
 import "./FeedbackForm.css";
 import Settings from "./Settings";       // Import your existing component
-import "./settings.css";    
+import "./temp.css";    
 
 const defaultRingtones = [
   { name: "iPhone", url: "/ringtones/iphone.mp3" },
