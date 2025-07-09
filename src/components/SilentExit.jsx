@@ -5,21 +5,21 @@ import Settings from "./Settings";       // Import your existing component
 import "./temp.css";    
 
 const defaultRingtones = [
-  { name: "iPhone", url: "/ringtones/iphone.mp3" },
-  { name: "Samsung", url: "/ringtones/samsung.mp3" },
-  { name: "Redmi/Xiomi", url: "/ringtones/redmi.mp3" },
-  { name: "Poco", url: "/ringtones/poco.mp3" },
-  { name: "Vivo", url: "/ringtones/vivo.mp3" },
-  { name: "Oppo", url: "/ringtones/oppo.mp3" },
-  { name: "Realme", url: "/ringtones/realme.mp3" },
-  { name: "Oneplus", url: "/ringtones/oneplus.mp3" },
-  { name: "Infinix", url: "/ringtones/infinix.mp3" },
+  { name: "iPhone", url: "/iphone.mp3" },
+  { name: "Samsung", url: "/samsung.mp3" },
+  { name: "Redmi/Xiomi", url: "/redmi.mp3" },
+  { name: "Poco", url: "/poco.mp3" },
+  { name: "Vivo", url: "/vivo.mp3" },
+  { name: "Oppo", url: "/oppo.mp3" },
+  { name: "Realme", url: "/realme.mp3" },
+  { name: "Oneplus", url: "/oneplus.mp3" },
+  { name: "Infinix", url: "/infinix.mp3" },
 ];
 
 
 const smsTones = {
-  iphone: new Audio("/sms/iphone-sms.mp3"),
-  android: new Audio("/sms/android-sms.mp3")
+  iphone: new Audio("/iphone-sms.mp3"),
+  android: new Audio("/android-sms.mp3")
 };
 
 export default function SilentExit() {
